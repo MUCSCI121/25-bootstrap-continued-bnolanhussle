@@ -24,5 +24,5 @@
         focus: true,
         keyboard: true
     });
-    
+    submitModal.show();
   }
