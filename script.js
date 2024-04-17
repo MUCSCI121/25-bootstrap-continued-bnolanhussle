@@ -19,5 +19,5 @@
   })()
 
   function displayModal() {
-    
+    let modal = new bootstrap.Modal(document.getElem)
   }
