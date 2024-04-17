@@ -34,5 +34,5 @@ function displayModal() {
     focus: true,
     keyboard: true,
   });
-  submitModal.show();
+  modal.show();
 }
