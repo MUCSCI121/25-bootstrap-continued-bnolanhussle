@@ -21,6 +21,8 @@
   function displayModal() {
     let modal = new bootstrap.Modal(document.getElementById("submitModal"), {
         backdrop: true,
-        
-    })
+        focus: true,
+        keyboard: true
+    });
+    
   }
