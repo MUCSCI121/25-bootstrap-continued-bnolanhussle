@@ -12,6 +12,10 @@
           event.preventDefault()
           event.stopPropagation()
         }
+        // The form is valid so show the modal
+        else {
+            displayModal();
+        }
   
         form.classList.add('was-validated')
       }, false)
