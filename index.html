@@ -82,68 +82,70 @@
       </div>
     </nav>
 
-    <div class="container pt-3">
-      <div class="row">
-        <div class="col-3">
-          <div class="mb-3">
-            <label for="inputFirstName" class="form-label">First Name:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputFirstName"
-              name="inputFirstName"
-              aria-label="First name"
-            />
+    <form>
+      <div class="container pt-3">
+        <div class="row">
+          <div class="col-3">
+            <div class="mb-3">
+              <label for="inputFirstName" class="form-label">First Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputFirstName"
+                name="inputFirstName"
+                aria-label="First name"
+              />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="mb-3">
+              <label for="inputLastName" class="form-label">Last Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputLastName"
+                name="inputLastName"
+                aria-label="Last name"
+              />
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="mb-3">
+              <label for="selectTitle" class="form-label">Title:</label>
+              <select
+                class="form-select"
+                aria-label="Formal title"
+                id="selectTitle"
+                name="selectTitle"
+              >
+                <option disabled selected></option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+                <option value="ms">Ms.</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                name="inputEmail"
+                placeholder="name@example.com"
+                aria-label="Email address"
+              />
+            </div>
           </div>
         </div>
-        <div class="col-3">
-          <div class="mb-3">
-            <label for="inputLastName" class="form-label">Last Name:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputLastName"
-              name="inputLastName"
-              aria-label="Last name"
-            />
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="mb-3">
-            <label for="selectTitle" class="form-label">Title:</label>
-            <select
-              class="form-select"
-              aria-label="Formal title"
-              id="selectTitle"
-              name="selectTitle"
-            >
-              <option disabled selected></option>
-              <option value="mr">Mr.</option>
-              <option value="mrs">Mrs.</option>
-              <option value="ms">Ms.</option>
-            </select>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="mb-3">
-            <label for="inputEmail" class="form-label">Email:</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail"
-              name="inputEmail"
-              placeholder="name@example.com"
-              aria-label="Email address"
-            />
+        <div class="row">
+          <div class="col-2">
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-2">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </div>
-    </div>
+    </form>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
