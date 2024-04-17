@@ -96,12 +96,8 @@
                 aria-label="First name"
                 required
               />
-              <div class="valid-feedback">
-                Thank you
-              </div>
-              <div class="invalid-feedback">
-                Please provide a first name.
-              </div>
+              <div class="valid-feedback">Thank you</div>
+              <div class="invalid-feedback">Please provide a first name.</div>
             </div>
           </div>
           <div class="col-3">
@@ -157,18 +153,29 @@
       </div>
     </form>
 
-    <div class="modal" tabindex="-1">
+    <div class="modal" tabindex="-1" id="submitModal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Success!</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body">
             <p>Your information has been submitted.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
